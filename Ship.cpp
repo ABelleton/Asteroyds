@@ -1,7 +1,8 @@
 #include "Ship.h"
+#include "Token.h"
 
-//Constructeurs
-Ship(int orient, int x_coord, int y_coord, , int id) { 
+//Constructors
+Ship::Ship(int orient, int x_coord, int y_coord, , int id) { 
 	orientation = orient;
 	x = x_coord;
 	y = y_coord;
@@ -10,7 +11,7 @@ Ship(int orient, int x_coord, int y_coord, , int id) {
 	reachedDoors = [false, false, false, false];
 }
 
-//Fonctions
-void moveToken(int direction, grid g) {
+//Members
+void Ship::moveToken(int direction, grid g) {
 
 }
