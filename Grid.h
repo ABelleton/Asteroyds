@@ -9,7 +9,8 @@ class Grid
 private : 
     vector<vector<Token*>> grid;
 public : 
-    Grid Grid();
+    Grid();
+    void initGrid();
     void updateGrid();
 
 }
