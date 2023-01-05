@@ -11,5 +11,5 @@ class Ship : public Token {
 public:
 	//Constructors
 	Ship(int id, int hp);
-
+	//Bjr
 };
