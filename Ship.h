@@ -16,7 +16,7 @@ public:
 	Ship(int id, int hp) { idShip = id; hitPoints = hp; }
 
 	//Fonctions virtuelles
-	virtual
+	
 
 	//Bjr
 };
