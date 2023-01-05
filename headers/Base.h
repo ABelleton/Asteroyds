@@ -6,6 +6,6 @@
 class Base : public SpaceObject {
 
 public:
-	Base() : SpaceObject(false, false, false) {}; // Base do not move and so have no color
+	Base() : SpaceObject(false, false, false) {}; // Bases do not move and so have no color
 	Base(int x, int y) : SpaceObject(x, y, false, false, false) {};
 };

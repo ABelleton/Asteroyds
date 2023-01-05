@@ -7,6 +7,6 @@
 class Wall : public SpaceObject {
 
 public:
-	Wall() : SpaceObject(false, false, false) {}; // Wall do not move and so have no color
+	Wall() : SpaceObject(false, false, false) {}; // Walls do not move and so have no color
 	Wall(int x, int y) : SpaceObject(x, y, false, false, false) {};
 };
