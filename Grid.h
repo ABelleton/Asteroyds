@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <iostream>
 
 
 class Grid
@@ -7,6 +8,7 @@ class Grid
 private : 
     vector<vector<Token*>> grid;
 public : 
-    //Tu veux bien marcher ?
+    Grid Grid();
+    void updateGrid();
 
 }
