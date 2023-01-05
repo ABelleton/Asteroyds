@@ -1,6 +1,7 @@
 #include "Grid.h"
 
 Grid::Grid() {
+	//on crée les 16 rangées
 	for (int i = 0; i < 7; i++) {
 		grid.push_back(vector<Token*>);
 		for (int k = 0; k < 7+i; k++) {
@@ -25,6 +26,7 @@ Grid::Grid() {
 }
 
 void initGrid() {
+	//Creation of Walls
 	Wall1 = new Wall(0,3);
 	Wall2 = new Wall(15, 3);
 	Wall3 = new Wall(3, 9);
@@ -42,5 +44,11 @@ void initGrid() {
 	grid[5][0] = Wall6;
 	grid[10][12] = Wall7;
 	grid[11][12] = Wall8;
+
+	//Creation of ships
+
+	//Creation of Asteroyds
+
+	//Creation of doors
 
 }
