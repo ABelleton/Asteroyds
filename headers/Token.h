@@ -17,9 +17,6 @@ class Token {
 #pragma region Constructors
 	// Constructor setting parameters at 0
 	Token() { x = 0; y = 0; orientation = 0; }
-
-	// Constructor setting position to custom and orientation to random
-	Token(int x, int y) {}
 	
 	// Constructor setting coordinates to custom values and orientation to random value
 	Token(int x, int y) { this.x = x, this.y = y, orientation = rand() % 6; }

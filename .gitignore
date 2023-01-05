@@ -2,3 +2,5 @@
 \v17
 README.mdgit
 .\vs
+*.json
+*.sqlite
