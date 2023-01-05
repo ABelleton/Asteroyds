@@ -1,6 +1,5 @@
 #pragma once
 
-#include <iostream>
 #include "Token.h"
 
 using namespace std;
@@ -22,4 +21,17 @@ public:
 
 	//Members
 	void moveToken(int direction, grid g);
+	void reachDoor(int idDoor);
+	void loseHitPoints(int lostHP);
+
+	//Setters
+	void setIdShip(int id) { idShip = id; }
+	void setHitPoints(int hp) { hitPoints = hp; }
+	void setReachedDoor(bool[4] doors) { reachedDoors = doors; }
+
+	//Getters
+	int getIdShip() { return idShip; }
+	int getHitPoints() { return hitPoints; }
+	bool[4] getReachedDoors{ return reachDoor; }
+	
 };
