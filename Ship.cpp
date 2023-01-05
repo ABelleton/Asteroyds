@@ -9,3 +9,8 @@ Ship(int orient, int x_coord, int y_coord, , int id) {
 	hitPoints = 6;
 	reachedDoors = [false, false, false, false];
 }
+
+//Fonctions
+void moveToken(int direction, grid g) {
+
+}

@@ -13,6 +13,8 @@ public:
 	Ship(int orient, int x_coord, int y_coord, , int id);
 
 	//Fonctions virtuelles
-	virtual void
+	virtual vector<int> chooseMoves();
 
+	//Fonctions
+	void moveToken(int direction, grid g);
 };
