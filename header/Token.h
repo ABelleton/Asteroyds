@@ -20,7 +20,7 @@ class Token {
 
 	// Constructor setting position to custom and orientation to random
 	Token(int x, int y) {}
-	
+
 	// Constructor setting coordinates to custom values and orientation to random value
 	Token(int x, int y) { this.x = x, this.y = y, orientation = rand() % 6; }
 
@@ -28,7 +28,19 @@ class Token {
 	Token(int x, int y, int orientation) { this.x = x; this.y = y; this.orientation = orientation; }
 #pragma endregion
 
-#pragma region methods
+#pragma region Getters
+	int getX() { return x; }
+	int getY() { return y; }
+	int getOrientation() { return orientation; }
+#pragma endregion
+
+#pragma region Setters
+	void setX(int x) { this.x = x; }
+	void setY(int y) { this.y = y; }
+	void setOrientation(int orientation) { this.orientation = orientation; }
+#pragma endregion
+
+#pragma region Methods
 	// method to move the token
 	virtual void moveToken(int direction, grid g) = 0;
 #pragma endregion
