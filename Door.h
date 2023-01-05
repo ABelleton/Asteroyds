@@ -1,4 +1,4 @@
-// Classe décrivant le comportement des portes
+// Class for the behavior of doors
 
 #pragma once
 #include "SpaceObject.h"
@@ -6,13 +6,25 @@
 class Door : public SpaceObject {
 
 public:
-	Door() : SpaceObject(){
+	Door() : SpaceObject() {
+		idDoor = nbDoors;
+		nbDoors++;
+	}
+	Door(int x, int y) : SpaceObject(x, y) {
+		idDoor = nbDoors;
+		nbDoors++;
+	}
+	Door(bool red, bool white, bool blue) : SpaceObject(red, white, blue) {
+		idDoor = nbDoors;
+		nbDoors++;
+	}
+	Door(int x, int y, bool red, bool white, bool blue) : SpaceObject(x, y, red, white, blue) {
 		idDoor = nbDoors;
 		nbDoors++;
 	}
 
 private:
-	static int nbDoors;
+	static int nbDoors; // Initialized to 0 and used to have successive id for the doors
 	int idDoor;
 };
 
