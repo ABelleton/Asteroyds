@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include "Token.h"
 
 using namespace std;
 
