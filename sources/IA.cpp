@@ -1,6 +1,3 @@
-
-#include "..\header\IA.h"
-
 #include "IA.h"
 
 vector<int> IA::chooseMoves()
