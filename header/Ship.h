@@ -20,9 +20,10 @@ public:
 	virtual vector<int> chooseMoves()=0;
 
 	//Members
-	void moveToken(int direction, grid g);
+	void moveToken(int action, grid g);
 	void reachDoor(int idDoor);
 	void loseHitPoints(int lostHP);
+	bool checkCollision(grid g);
 
 	//Setters
 	void setIdShip(int id) { idShip = id; }
