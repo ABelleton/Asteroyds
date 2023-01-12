@@ -10,15 +10,32 @@ Grid::Grid() {
 		}
 	}
 	int rand = rand() % 6;
-	for (int i = 0; i < 6; i++) {
+	for (int i = 0; i < 2; i++) {
 		if (i == rand) {
-			ships.push_back(new player(i, 9, 6, i));
+			ships.push_back(new player(i, 9-i, 6-i, i));
 		}
 		else () {
-			ships.push_back(new IA(i, 9, 6, i));
+			ships.push_back(new IA(i, 9-i, 6-i, i));
 		}
 	}
 
+	for (int i = 2; i < 4; i++) {
+		if (i == rand) {
+			ships.push_back(new player(i, 7, 3 + i, i));
+		}
+		else () {
+			ships.push_back(new IA(i, 7, 3 + i, i));
+		}
+	}
+
+	for (int i = 4; i < 6; i++) {
+		if (i == rand) {
+			ships.push_back(new player(i, 4 + i, 7, i));
+		}
+		else () {
+			ships.push_back(new IA(i, 4 + i, 7, i));
+		}
+	}
 }
 
 void initGrid() {
@@ -118,7 +135,6 @@ void updateGrid() {
 		}
 	}
 	//Move BLUE
-	DeB = rand() % 6 + 1;
 	for (int i = 0; i < 16; i++) {
 		for (int k = 0; k < 13; k++) {
 			if (getAstType()[0] == true) {
