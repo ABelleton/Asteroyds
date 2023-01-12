@@ -12,9 +12,10 @@ Ship::Ship(int orient, int x_coord, int y_coord, , int id) {
 
 //Members
 void Ship::moveToken(int action, grid g) {
-	// register actual coordinates
+	// register actual coordinates and orientation
 	int oldX = x;
 	int oldY = y;
+	int oldOrientation = orientation;
 
 	// Actions without movement
 	if (action == WAIT) {
@@ -51,16 +52,9 @@ void Ship::moveToken(int action, grid g) {
 
 	// If there is a collision, removes HP and get back to previous position
 	if (checkCollision(grid g)) {
-		loseHitPoints(2);
-		moveToken(U_TURN, g);
-		moveToken(FORWARD, g);
-		moveToken(U_TURN, g);
-		return;
+		x = oldX;
+		y = oldY;
 	}
-
-	// edit grid
-	grid[x, y] = grid[oldX, oldY];
-	grid[oldX, oldY] = nullptr;
 }
 
 void Ship::reachDoor(int idDoor) {
