@@ -2,6 +2,7 @@
 
 #include "Token.h"
 #include "Grid.h"
+#include "Ship.h"
 
 class SpaceObject:Token{
     private:
@@ -24,7 +25,7 @@ class SpaceObject:Token{
         bool[3] getAstType() {return astType; }
 
         // méthodes
-        void moveToken(int direction, vector<vector<Token*>> grid);
+        void moveToken(int direction, vector<vector<Token*>> grid, vector<Ship*> ships);
 }
 
 SpaceObject::diceValues = { 0,0,0 };

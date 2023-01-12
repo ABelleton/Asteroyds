@@ -1,8 +1,9 @@
 #include "SpaceObject.h"
 
-void SpaceObject::moveToken(int direction, vector<vector<Token*>> grid){
+void SpaceObject::moveToken(int direction, vector<vector<Token*>> grid, vector<Ship*> ships){
 	int newX = x;
 	int newY = y;
+	bool isCollisionShip = false;
 
 	switch (direction) {
 	case 0:
@@ -31,16 +32,29 @@ void SpaceObject::moveToken(int direction, vector<vector<Token*>> grid){
 	}
 
 	if (newX >= 0 && newX < 16 && newY >= 0 && newY < 13) {
+		
+		for (int ship = 0; ship < ships.size(); ship++) {
+			if (ships[i]->getX() = newX && ships[i]->getY() = newY) {
+				is isCollisionShip = true;
+				ships[i]->loseHitPoints(1);
+			}
+		}
 
-		if (g[newX][newY] == nullptr) {
+		if (g[newX][newY] == nullptr && !isCollisionShip) {
 			g[newX][newY] = this;
 			g[x][y] = nullptr;
 			x = newX;
 			y = newY;
 		}
 		else if (astType[2]) {
+			for (int ship = 0; ship < ships.size(); ship++) {
+				if (ships[i]->getX() = 2 * newX - x && ships[i]->getY() = 2 * newY - y) {
+					is isCollisionShip = true;
+					ships[i]->loseHitPoints(1);
+				}
+			}
 			if (2 * newX - x >= 0 && 2 * newX - x < 16 && 2 * newY - y >= 0 && 2 * newY - y < 13) {
-				if (g[2 * newX - x][2 * newY - y] == nullptr) {
+				if (g[2 * newX - x][2 * newY - y] == nullptr && !isCollisionShip) {
 					g[newX][newY]->x = 2 * newX - x;
 					g[newX][newY]->y = 2 * newY - y;
 					g[2newX - x][2 * newY - y] = g[newX][newY];
@@ -82,7 +96,14 @@ void SpaceObject::moveToken(int direction, vector<vector<Token*>> grid){
 
 		if (newX >= 0 && newX < 16 && newY >= 0 && newY < 13) {
 
-			if (g[newX][newY] == nullptr) {
+			for (int ship = 0; ship < ships.size(); ship++) {
+				if (ships[i]->getX() = newX && ships[i]->getY() = newY) {
+					is isCollisionShip = true;
+					ships[i]->loseHitPoints(1);
+				}
+			}
+
+			if (g[newX][newY] == nullptr && !isCollisionShip) {
 				g[newX][newY] = this;
 				g[x][y] = nullptr;
 				x = newX;
