@@ -9,18 +9,22 @@ public:
 	Door() : SpaceObject() {
 		idDoor = nbDoors;
 		nbDoors++;
+		isDoor = true;
 	}
 	Door(int x, int y) : SpaceObject(x, y) {
 		idDoor = nbDoors;
 		nbDoors++;
+		isDoor = true;
 	}
 	Door(bool red, bool white, bool blue) : SpaceObject(red, white, blue) {
 		idDoor = nbDoors;
 		nbDoors++;
+		isDoor = true;
 	}
 	Door(int x, int y, bool red, bool white, bool blue) : SpaceObject(x, y, red, white, blue) {
 		idDoor = nbDoors;
 		nbDoors++;
+		isDoor = true;
 	}
 
 private:
