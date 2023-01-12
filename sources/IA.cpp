@@ -59,12 +59,13 @@ void IA::findClosestDoor(Grid grid) {
 	for (int i = 16; i < 7; i++) {
 		for (int k = 13; k < 7 + i; k++) {
 			if (grid[i][k]->getIsDoor()) {
-				if (grid[i][k]->)
-				tempDistance = pow(i - x, 2) + pow(k - y, 2);
-				if (tempDistance < minDistance) {
-					minDistance = tempDistance;
-					xDirection = i;
-					yDirection = k;
+				if (!reachedDoors[grid[i][k]->getIdDoor()]){
+					tempDistance = pow(i - x, 2) + pow(k - y, 2);
+					if (tempDistance < minDistance) {
+						minDistance = tempDistance;
+						xDirection = i;
+						yDirection = k;
+					}
 				}
 			}
 		}
@@ -72,5 +73,36 @@ void IA::findClosestDoor(Grid grid) {
 }
 
 void IA::actuDoorPosition(){
+	int newXDirection = xDirection;
+	int newYDirection = yDirection;
 
+	for (int color = 0; color < 3; color++) {
+		if (grid[xDirection][yDirection]->getAstType()[color]) {
+			switch ((SpaceObject::diceValues[color] - orientation - 2) % 6) {
+				case 0:
+					newXDirection++;
+				case 1:
+					newYDirection--;
+				case 2:
+					newXDirection--;
+					newYDirection--;
+				case 3:
+					newXDirection--;
+				case 4:
+					newYDirection++;
+				case 5:
+					newXDirection++;
+					newYDirection++;
+				default:
+					cout << "Erreur : valeur de direction non comprise entre 0 et 5" << endl;
+			}
+
+			if (color == 0) {
+				newXDirection += newXDirection - xDirection;
+				newYDirection += newYDirection - yDirection;
+			}
+		}
+	}
+	xDirection = newXDirection;
+	yDirection = newYDirection;
 }
