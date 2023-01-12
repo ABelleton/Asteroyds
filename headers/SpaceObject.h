@@ -8,6 +8,7 @@ class SpaceObject:Token{
         bool[3] astType;
         int idSpaceObject;
         static int idEnum;
+        bool isDoor;
 
     public:
         static int[3] diceValues;
@@ -19,6 +20,7 @@ class SpaceObject:Token{
         getID() { return idSpaceObject; }
 
         moveToken(int direction, Grid g);
+        bool getIsDoor() { return isDoor; }
 }
 
 SpaceObject::diceValues = { 0,0,0 };
