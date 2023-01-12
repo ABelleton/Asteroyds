@@ -7,20 +7,27 @@ void SpaceObject::moveToken(int direction, vector<vector<Token*>> grid){
 	switch (direction) {
 	case 0:
 		newX++;
+		break;
 	case 1:
 		newY--;
+		break;
 	case 2:
 		newX--;
 		newY--;
+		break;
 	case 3:
 		newX--;
+		break;
 	case 4:
 		newY++;
+		break;
 	case 5:
 		newX++;
 		newY++;
+		break;
 	default:
 		cout << "Erreur : valeur de direction non comprise entre 0 et 5" << endl;
+		break;
 	}
 
 	if (newX >= 0 && newX < 16 && newY >= 0 && newY < 13) {
@@ -50,20 +57,27 @@ void SpaceObject::moveToken(int direction, vector<vector<Token*>> grid){
 		switch (direction) {
 		case 0:
 			newX++;
+			break;
 		case 1:
 			newY--;
+			break;
 		case 2:
 			newX--;
 			newY--;
+			break;
 		case 3:
 			newX--;
+			break;
 		case 4:
 			newY++;
+			break;
 		case 5:
 			newX++;
 			newY++;
+			break;
 		default:
 			cout << "Erreur : valeur de direction non comprise entre 0 et 5" << endl;
+			break;
 		}
 
 		if (newX >= 0 && newX < 16 && newY >= 0 && newY < 13) {
