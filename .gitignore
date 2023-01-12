@@ -1,5 +1,5 @@
 \v16
 README.mdgit
-.\vs
+.vs
 *.json
 *.sqlite
