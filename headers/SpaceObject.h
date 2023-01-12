@@ -17,10 +17,14 @@ class SpaceObject:Token{
         SpaceObject(int x, int y);
         SpaceObject(bool rouge, bool blanc, bool bleu);
         SpaceObject(int x, int y, bool rouge, bool blanc, bool bleu);
-        int getID() { return idSpaceObject; }
 
-        void moveToken(int direction, Grid g);
+        //get
+        int getID() { return idSpaceObject; }
         bool getIsDoor() { return isDoor; }
+        bool[3] getAstType() {return astType; }
+
+        // méthodes
+        void moveToken(int direction, Grid g);
 }
 
 SpaceObject::diceValues = { 0,0,0 };
