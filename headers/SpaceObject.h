@@ -17,9 +17,9 @@ class SpaceObject:Token{
         SpaceObject(int x, int y);
         SpaceObject(bool rouge, bool blanc, bool bleu);
         SpaceObject(int x, int y, bool rouge, bool blanc, bool bleu);
-        getID() { return idSpaceObject; }
+        int getID() { return idSpaceObject; }
 
-        moveToken(int direction, Grid g);
+        void moveToken(int direction, Grid g);
         bool getIsDoor() { return isDoor; }
 }
 
