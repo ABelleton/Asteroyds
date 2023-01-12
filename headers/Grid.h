@@ -9,6 +9,7 @@ class Grid
 {
 private : 
     vector<vector<Token*>> grid;
+    vector<Ship*> ships;
 public : 
     //Constructors
     Grid();

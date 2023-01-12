@@ -9,7 +9,15 @@ Grid::Grid() {
 			grid[i].push_back(nullptr);
 		}
 	}
-
+	int rand = rand() % 6;
+	for (int i = 0; i < 6; i++) {
+		if (i == rand) {
+			ships.push_back(new player(i, 9, 6, i));
+		}
+		else () {
+			ships.push_back(new IA(i, 9, 6, i));
+		}
+	}
 
 }
 
@@ -48,16 +56,16 @@ void initGrid() {
 	grid[7][5] = base(9, 6);
 	grid[7][5] = base(9, 7);
 	//Creation of Asteroyds
-	//White asteroyds
-	grid[2][3] = new asteroyd(2, 3, false, true, false);
-	grid[7][1] = new asteroyd(7, 1, false, true, false);
-	grid[8][11] = new asteroyd(8, 11, false, true, false);
-	grid[11][10] = new asteroyd(11, 10, false, true, false);
 	//Red asteroyds
 	grid[3][3] = new asteroyd(3, 3, true, false, false);
 	grid[5][8] = new asteroyd(5, 8, true, false, false);
 	grid[10][4] = new asteroyd(10, 4, true, false, false);
 	grid[12][9] = new asteroyd(12, 9, true, false, false);
+	//White asteroyds
+	grid[2][3] = new asteroyd(2, 3, false, true, false);
+	grid[7][1] = new asteroyd(7, 1, false, true, false);
+	grid[8][11] = new asteroyd(8, 11, false, true, false);
+	grid[11][10] = new asteroyd(11, 10, false, true, false);
 	//Blue asteroyds
 	grid[4][5] = new asteroyd(4, 5, false, false, true);
 	grid[6][9] = new asteroyd(6, 9, false, false, true);
@@ -83,11 +91,40 @@ void initGrid() {
 	//Creation of doors
 	grid[1][2] = new door(1, 2, false, true, false);
 	grid[13][11] = new door(13, 11, false, true, false);
-	grid[6][11] = new door(6, 11, false, true, false);
-	grid[9][1] = new door(9, 1, false, true, false);
+	grid[6][11] = new door(6, 11, true, false, false);
+	grid[9][1] = new door(9, 1, true, false, false);
 
 }
 
 void updateGrid() {
+	
+	//Move RED
+	for (int i = 0; i < 16; i++) {
+		for (int k = 0; k < 13; k++) {
+			if (grid[i][k] != nullptr) {
+				if (getAstType()[0] == true) {
+					Grid[i][k]->moveToken((SpaceObject::DiceValues[0] - grid[i][k]->getOrientation() - 2) % 6),grid);
+					Grid[i][k]->moveToken((SpaceObject::DiceValues[0] - grid[i][k]->getOrientation() - 2) % 6),grid);
+				}
+			}
+		}
+	}
+	//Move WHITE
+	for (int i = 0; i < 16; i++) {
+		for (int k = 0; k < 13; k++) {
+			if (getAstType()[1] == true) {
+				Grid[i][k]->moveToken((SpaceObject::DiceValues[1] - grid[i][k]->getOrientation() - 2) % 6), grid);
+			}
+		}
+	}
+	//Move BLUE
+	DeB = rand() % 6 + 1;
+	for (int i = 0; i < 16; i++) {
+		for (int k = 0; k < 13; k++) {
+			if (getAstType()[0] == true) {
+				Grid[i][k]->moveToken((SpaceObject::DiceValues[2] - grid[i][k]->getOrientation() - 2) % 6), grid);
+			}
+		}
+	}
 
 }
