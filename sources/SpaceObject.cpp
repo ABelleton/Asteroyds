@@ -1,7 +1,81 @@
 #include "SpaceObject.h"
 
-void SpaceObject::moveToken(int direction, Grid g){
-    
+void SpaceObject::moveToken(int direction, vector<vector<Token*>> grid){
+	int newX = x;
+	int newY = y;
+
+	switch (direction) {
+	case 0:
+		newX++;
+	case 1:
+		newY--;
+	case 2:
+		newX--;
+		newY--;
+	case 3:
+		newX--;
+	case 4:
+		newY++;
+	case 5:
+		newX++;
+		newY++;
+	default:
+		cout << "Erreur : valeur de direction non comprise entre 0 et 5" << endl;
+	}
+
+	if (newX >= 0 && newX < 16 && newY >= 0 && newY < 13) {
+
+		if (g[newX][newY] == nullptr) {
+			g[newX][newY] = this;
+			g[x][y] = nullptr;
+			x = newX;
+			y = newY;
+		}
+		else if (astType[2]) {
+			if (2 * newX - x >= 0 && 2 * newX - x < 16 && 2 * newY - y >= 0 && 2 * newY - y < 13) {
+				if (g[2 * newX - x][2 * newY - y] == nullptr) {
+					g[newX][newY]->x = 2 * newX - x;
+					g[newX][newY]->y = 2 * newY - y;
+					g[2newX - x][2 * newY - y] = g[newX][newY];
+					g[newX][newY] = this;
+					g[x][y] = nullptr;
+					x = newX;
+					y = newY;
+				}
+			}
+		}
+	}
+
+	if (astType[0]) {
+		switch (direction) {
+		case 0:
+			newX++;
+		case 1:
+			newY--;
+		case 2:
+			newX--;
+			newY--;
+		case 3:
+			newX--;
+		case 4:
+			newY++;
+		case 5:
+			newX++;
+			newY++;
+		default:
+			cout << "Erreur : valeur de direction non comprise entre 0 et 5" << endl;
+		}
+
+		if (newX >= 0 && newX < 16 && newY >= 0 && newY < 13) {
+
+			if (g[newX][newY] == nullptr) {
+				g[newX][newY] = this;
+				g[x][y] = nullptr;
+				x = newX;
+				y = newY;
+			}
+		}
+	}
 }
 
 SpaceObject::SpaceObject() : Token() {

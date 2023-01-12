@@ -24,7 +24,7 @@ class SpaceObject:Token{
         bool[3] getAstType() {return astType; }
 
         // méthodes
-        void moveToken(int direction, Grid g);
+        void moveToken(int direction, vector<vector<Token*>> grid);
 }
 
 SpaceObject::diceValues = { 0,0,0 };
