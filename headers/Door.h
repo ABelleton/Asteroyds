@@ -27,6 +27,8 @@ public:
 		isDoor = true;
 	}
 
+	int getIdDoor() { return idDoor; }
+
 private:
 	static int nbDoors; // Initialized to 0 and used to have successive id for the doors
 	int idDoor;
