@@ -42,9 +42,11 @@ void initGrid() {
 	}
 	//Creation of bases
 	grid[7][5] = base(7, 5);
-	//Creation of ships
-	int a = rand() % 6;
-	Ship1 = new player(a, );
+	grid[7][5] = base(7, 6);
+	grid[7][5] = base(8, 5);
+	grid[7][5] = base(8, 7);
+	grid[7][5] = base(9, 6);
+	grid[7][5] = base(9, 7);
 	//Creation of Asteroyds
 	//White asteroyds
 	grid[2][3] = new asteroyd(2, 3, false, true, false);
