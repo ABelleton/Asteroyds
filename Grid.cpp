@@ -87,3 +87,7 @@ void initGrid() {
 	grid[9][1] = new door(9, 1, false, true, false);
 
 }
+
+void updateGrid() {
+
+}
