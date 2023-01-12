@@ -2,6 +2,7 @@
 #include <vector>
 #include <iostream>
 #include "Token.h"
+#include <random>
 
 
 class Grid
@@ -9,7 +10,9 @@ class Grid
 private : 
     vector<vector<Token*>> grid;
 public : 
+    //Constructors
     Grid();
+    //Methods
     void initGrid();
     void updateGrid();
 
