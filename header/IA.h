@@ -12,7 +12,7 @@ class IA : public Ship {
 
 #pragma region Methods
 	vector<int> chooseMoves();
-	void findClosestDoor(Grid grid);
+	void findClosestDoor(vector<vector<Token*>> grid);
 	IA() : Ship() { findClosestDoor(); }
 	void actuDoorPosition();
 #pragma endregion

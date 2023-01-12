@@ -51,7 +51,7 @@ vector<int> IA::chooseMoves() {
 	return movesList;
 }
 
-void IA::findClosestDoor(Grid grid) {
+void IA::findClosestDoor(vector<vector<Token*>> grid) {
 
 	float minDistance = 10000; // Distance higher than the board size
 	float tempDistance = 10000;
