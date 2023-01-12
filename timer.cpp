@@ -1,17 +1,17 @@
 #include "timer.h"
 
-timer::getTimerValue() {
-	return time;
+double timer::getTimerValue() {
+	return timerValue;
 }
 
-timer::resetTimer() {
+void timer::resetTimer() {
 	state = 0;
-	timerValue = 50;
+	timerValue = duration;
 }
 
-timer::updateTimer() {
+void timer::updateTimer() {
 	if (state==1) {
-		timerValue = 50 - (time(nullptr) - startTime);
+		timerValue = duration - (time(nullptr) - startTime);
 		if (timerValue < 0) {
 			timerValue = 0;
 			state = 2;
@@ -19,7 +19,17 @@ timer::updateTimer() {
 	}
 }
 
-timer::startTimer() {
+void timer::startTimer() {
 	state = 1;
-	startTime = time();
+	startTime = time(nullptr);
 }
+
+void timer::setDuration(double newDuration){
+	duration=newDuration;
+}
+
+double timer::getDuration(){
+	return duration;
+}
+
+
