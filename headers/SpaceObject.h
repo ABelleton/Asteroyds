@@ -71,8 +71,8 @@ class SpaceObject:Token{
         * If the SpaceObject is blue, The SpaceObject before it can also be moved.\n
         * This function is inherited from the Token class.
         * \param direction : Direction the SpaceObject is supposed to move in
-        * \param grid : Vector containing the position and orientation of all Tokens
-        * \param ships : Vector containing the position and orientation of all ships
+        * \param grid : Vector containing the positions and orientations of all Tokens
+        * \param ships : Vector containing the positions and orientations of all ships
         */
         void moveToken(int direction, vector<vector<Token*>> grid, vector<Ship*> ships);
 }
