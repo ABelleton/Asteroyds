@@ -3,3 +3,5 @@ README.mdgit
 .\vs
 *.json
 *.sqlite
+*\html
+*\latex

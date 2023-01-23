@@ -1,10 +1,20 @@
 #pragma once
 
+/*! \file Token.h
+* \brief Contains the Token class
+*/
+
 // includes
 #include<cstdlib>
 
-// Mother class for every token on the grid
+/*! \class Token
+* \brief Abstract class describing all tokens on the grid \n
+* Inherited class : SpaceObject and Ship
+*/
 class Token {
+
+/*! Position: xand y describe the position of the token \n
+* Orientation : orientation describes the orientation of the token */
 #pragma region Parameters
 	// x coordinate of the token
 	int x;
