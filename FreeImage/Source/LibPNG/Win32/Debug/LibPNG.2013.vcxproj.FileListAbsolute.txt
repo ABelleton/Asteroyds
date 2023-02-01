@@ -1,0 +1,1 @@
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\LibPNG\Win32\Debug\LibPNG.lib

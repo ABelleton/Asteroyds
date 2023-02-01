@@ -1,0 +1,237 @@
+﻿  IexMathFpu.cpp
+  b44ExpLogTable.cpp
+  ImfAcesFile.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(58,11): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(426,48): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp(432,48): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+  ImfAttribute.cpp
+  ImfB44Compressor.cpp
+  ImfBoxAttribute.cpp
+  ImfChannelList.cpp
+  ImfChannelListAttribute.cpp
+  ImfChromaticities.cpp
+  ImfChromaticitiesAttribute.cpp
+  ImfCompositeDeepScanLine.cpp
+  ImfCompressionAttribute.cpp
+  ImfCompressor.cpp
+  ImfConvert.cpp
+  ImfCRgbaFile.cpp
+  ImfDeepCompositing.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepCompositing.cpp(84,48): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+  ImfDeepFrameBuffer.cpp
+  ImfDeepImageStateAttribute.cpp
+  ImfDeepScanLineInputFile.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(343,66): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(504,44): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(511,52): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(517,27): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'unsigned int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(518,39): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(626,53): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(635,54): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1471,68): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1511,46): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1515,28): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1716,32): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1720,48): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1833,56): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp(1849,48): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+  ImfDeepScanLineInputPart.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  ImfDeepScanLineOutputFile.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(378,48): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(384,37): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(696,52): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'long', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(734,55): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(758,50): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(768,61): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(786,61): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(974,72): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'long', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(978,37): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp(1479,25): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'const unsigned int', perte possible de données
+  ImfDeepScanLineOutputPart.cpp
+  ImfDeepTiledInputFile.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(418,44): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(438,52): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(444,27): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'unsigned int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(445,39): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(493,44): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(499,35): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(631,50): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(1021,52): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'long', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(1024,54): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(1495,69): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(1844,77): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp(1855,61): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+  ImfDeepTiledInputPart.cpp
+  ImfDeepTiledOutputFile.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(194,30): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'unsigned int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(195,34): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(554,56): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(560,45): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(690,53): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(689,71): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(689,56): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(743,29): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(874,41): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'long', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(910,76): warning C4244: 'argument' : conversion de '_Ty' en 'size_t', perte possible de données
+          with
+          [
+              _Ty=Imath_2_2::Int64
+          ]
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(970,53): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1000,38): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1010,61): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1243,34): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'long', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1246,28): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1250,37): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'size_t', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp(1749,25): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'const unsigned int', perte possible de données
+  ImfDeepTiledOutputPart.cpp
+  ImfDoubleAttribute.cpp
+  ImfDwaCompressor.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(274,18): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(756,38): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(785,46): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(941,46): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(1139,38): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(1914,54): warning C4267: '+=' : conversion de 'size_t' en 'unsigned short', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(2428,36): warning C4267: '-=' : conversion de 'size_t' en 'unsigned short', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(2440,43): warning C4018: '>' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(2991,33): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(3028,46): warning C4018: '>' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(3040,46): warning C4018: '>' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(3048,23): warning C4018: '>' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp(3109,36): warning C4018: '>' : incompatibilité signed/unsigned
+  ImfEnvmap.cpp
+  ImfEnvmapAttribute.cpp
+  ImfFastHuf.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(153,24): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(167,24): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(183,34): warning C4244: '=' : conversion de 'Imath_2_2::Int64' en 'unsigned char', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(186,34): warning C4244: '=' : conversion de 'Imath_2_2::Int64' en 'unsigned char', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp(256,21): warning C4244: 'initialisation' : conversion de 'unsigned __int64' en 'int', perte possible de données
+  ImfFloatAttribute.cpp
+  ImfFloatVectorAttribute.cpp
+  ImfFrameBuffer.cpp
+  ImfFramesPerSecond.cpp
+  ImfGenericInputFile.cpp
+  ImfGenericOutputFile.cpp
+  ImfHeader.cpp
+  ImfHuf.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(171,14): warning C4244: '=' : conversion de 'Imath_2_2::Int64' en 'char', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(250,8): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(481,8): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(550,16): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(562,16): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(621,8): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(679,6): warning C4334: '<<' : résultat du décalage 32 bits converti implicitement en 64 bits (le décalage 64 bits est-il intentionnel ?)
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(724,27): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(900,3): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'unsigned char', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(915,13): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(930,8): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'unsigned char', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp(957,6): warning C4244: 'initialisation' : conversion de 'Imath_2_2::Int64' en 'unsigned char', perte possible de données
+  ImfInputFile.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  ImfInputPart.cpp
+  ImfInputPartData.cpp
+  ImfIntAttribute.cpp
+  ImfIO.cpp
+  ImfKeyCode.cpp
+  ImfKeyCodeAttribute.cpp
+  ImfLineOrderAttribute.cpp
+  ImfLut.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp(156,33): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp(156,27): warning C4244: 'initialisation' : conversion de 'double' en 'const float', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp(174,22): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+  ImfMatrixAttribute.cpp
+  ImfMisc.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(313,38): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp(708,38): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+  ImfMultiPartInputFile.cpp
+  ImfMultiPartOutputFile.cpp
+  ImfMultiView.cpp
+  ImfOpaqueAttribute.cpp
+  ImfOutputFile.cpp
+  ImfOutputPart.cpp
+  ImfOutputPartData.cpp
+  ImfPartType.cpp
+  ImfPizCompressor.cpp
+  ImfPreviewImage.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  ImfPreviewImageAttribute.cpp
+  ImfPxr24Compressor.cpp
+  ImfRational.cpp
+  ImfRationalAttribute.cpp
+  ImfRgbaFile.cpp
+  ImfRgbaYca.cpp
+  ImfRle.cpp
+  ImfRleCompressor.cpp
+  ImfScanLineInputFile.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp(1467,40): warning C4244: 'argument' : conversion de 'const double' en 'float', perte possible de données
+  ImfStandardAttributes.cpp
+  ImfStdIO.cpp
+  ImfStringAttribute.cpp
+  ImfStringVectorAttribute.cpp
+  ImfSystemSpecific.cpp
+  ImfTestFile.cpp
+  ImfThreading.cpp
+  ImfTileDescriptionAttribute.cpp
+  ImfTiledInputFile.cpp
+  ImfTiledInputPart.cpp
+  ImfTiledMisc.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  ImfTiledOutputFile.cpp
+  ImfTiledOutputPart.cpp
+  ImfTiledRgbaFile.cpp
+  ImfTileOffsets.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp(154,91): warning C4244: 'argument' : conversion de 'Imath_2_2::Int64' en 'int', perte possible de données
+  ImfTimeCode.cpp
+  ImfTimeCodeAttribute.cpp
+  ImfVecAttribute.cpp
+  ImfVersion.cpp
+  ImfWav.cpp
+  ImfZip.cpp
+  ImfZipCompressor.cpp
+  ImathBox.cpp
+  ImathColorAlgo.cpp
+  ImathFun.cpp
+  ImathMatrixAlgo.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp(118,27): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp(254): message : voir la référence à l'instanciation de la fonction modèle 'Imath_2_2::M44d Imath_2_2::procrustesRotationAndTranslation<double>(const Imath_2_2::V3d *,const Imath_2_2::V3d *,const double *,const size_t,const bool)' en cours de compilation
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp(127,27): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp(155,27): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp(160,27): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp(200,31): warning C4018: '<' : incompatibilité signed/unsigned
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp(205,31): warning C4018: '<' : incompatibilité signed/unsigned
+  ImathRandom.cpp
+  ImathShear.cpp
+  ImathVec.cpp
+  IexBaseExc.cpp
+  IexThrowErrnoExc.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  half.cpp
+  IlmThread.cpp
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp(67,1): warning C4297: 'IlmThread_2_2::Thread::~Thread' : la fonction lève une exception alors qu'elle est présumée ne pas le faire
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp(67,1): message : le destructeur ou l'annulateur d'allocation comporte une spécification d'exception qui ne peut pas être levée (éventuellement implicite)
+  IlmThreadMutex.cpp
+  IlmThreadPool.cpp
+  IlmThreadSemaphore.cpp
+  IexMathFloatExc.cpp
+  Génération de code en cours...
+  OpenEXR.2013.vcxproj -> F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\OpenEXR\Win32\Debug\OpenEXR.lib

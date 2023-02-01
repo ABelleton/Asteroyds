@@ -1,0 +1,4 @@
+﻿  main.cpp
+F:\RV\MEDEV\P1RV_Paint\texture.h(15,1): warning C4005: 'FREEIMAGE_COLORORDER' : redéfinition de macro
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Dist\x32\FreeImage.h(99): message : voir la définition précédente de 'FREEIMAGE_COLORORDER'
+  P1RV_Paint.vcxproj -> F:\RV\MEDEV\P1RV_Paint\Debug\P1RV_Paint.exe

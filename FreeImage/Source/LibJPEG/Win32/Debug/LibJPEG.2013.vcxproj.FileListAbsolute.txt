@@ -1,0 +1,1 @@
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\LibJPEG\Win32\Debug\LibJPEG.lib

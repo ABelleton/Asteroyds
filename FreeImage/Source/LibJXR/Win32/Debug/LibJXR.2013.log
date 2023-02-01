@@ -1,0 +1,28 @@
+﻿cl : ligne de commande warning D9035: l'option 'Gm' est déconseillée et sera supprimée dans une version ultérieure
+  JXRMeta.c
+  JXRGluePFC.c
+  JXRGlueJxr.c
+  JXRGlue.c
+  strTransform.c
+  strPredQuant.c
+  strcodec.c
+  image.c
+  adapthuff.c
+  strPredQuantEnc.c
+  strFwdTransform.c
+  strenc_x86.c
+  strenc.c
+  segenc.c
+  encode.c
+  strPredQuantDec.c
+  strInvTransform.c
+  strdec_x86.c
+  strdec.c
+  segdec.c
+  Génération de code en cours...
+  Compilation en cours...
+  postprocess.c
+  JXRTranscode.c
+  decode.c
+  Génération de code en cours...
+  LibJXR.2013.vcxproj -> F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\LibJXR\Win32\Debug\LibJXR.lib

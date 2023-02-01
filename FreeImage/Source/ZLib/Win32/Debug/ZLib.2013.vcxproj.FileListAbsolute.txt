@@ -1,0 +1,1 @@
+F:\RV\MEDEV\P1RV_Paint\FreeImage\Source\ZLib\Win32\Debug\ZLib.lib
